@@ -97,7 +97,7 @@ A digital library system that allows users to add, search, issue, and return boo
 **File:** `Utility.java`
 
 #### Overview
-A multifunctional tool featuring a simple calculator and a campus event scheduler.
+A multipurpose tool featuring a simple calculator and a campus event scheduler.
 
 #### Features
 - Basic Calculator supporting `+`, `-`, `*`, `/`  
@@ -135,5 +135,5 @@ Each module opens its own **GUI window** using Swing dialogs.
 
 ---
 
-## 🏁 Project Summary
-This collaborative project demonstrates teamwork, modular design, and GUI-based programming using Java Swing.  
+##  Project Summary
+This project demonstrates teamwork, modular design, and GUI-based programming using Java Swing.  
