@@ -7,14 +7,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Simple SmartAssistant (Student Module)
+ * Simple GPUCalculator (Student Module)
  * Author: Christopher Wells
  * Description: basic Java Swing program for managing students
  * - add/search/display student info
  * - calculate GPA
  */
 
-public class SmartAssistant {
+public class GPACalculator {
 
     // File where students are saved
     private final File studentFile = new File("students.txt");
@@ -34,7 +34,7 @@ public class SmartAssistant {
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
-            SmartAssistant app = new SmartAssistant();
+            GPACalculator app = new GPACalculator();
             app.setupFile();
             app.createAndShowGUI();
         });
@@ -52,7 +52,7 @@ public class SmartAssistant {
     }
 
     private void createAndShowGUI() {
-        mainFrame = new JFrame("SmartAssistant - Student Module");
+        mainFrame = new JFrame("GPACalculator - Student Module");
         mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         mainFrame.setSize(900, 600);
         mainFrame.setLocationRelativeTo(null);
